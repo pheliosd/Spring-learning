@@ -8,7 +8,8 @@ public class SpringIn5StepsApplication {
 
     public static void main(String[] args) {
 
-        BinarySearchImpl binarySearch = new BinarySearchImpl();
+
+        BinarySearchImpl binarySearch = new BinarySearchImpl(new BubbleSortAlgo());
         int result = binarySearch.binarySearch(new int[] {10,3,5,6}, 6);
         System.out.println(result);
 

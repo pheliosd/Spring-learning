@@ -1,8 +1,9 @@
 package dbs.pheliosd.spring.basics.springin5steps;
 
 import java.util.Arrays;
+import java.util.Collections;
 
-public class BubbleSortAlgo implements SortAlgorithm {
+public class QuickSortAlgo implements SortAlgorithm{
 //    implementing the basic binary search algo
    
     public int[] sort (int[] numbers){
