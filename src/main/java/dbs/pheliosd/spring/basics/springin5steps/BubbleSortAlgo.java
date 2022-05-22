@@ -1,7 +1,10 @@
 package dbs.pheliosd.spring.basics.springin5steps;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 
+@Component
 public class BubbleSortAlgo implements SortAlgorithm {
 //    implementing the basic binary search algo
    
